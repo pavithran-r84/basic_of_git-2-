@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Pet Care Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="site-title">🐾 Digital Pet Care Center</h1>
+        <nav class="navigation">
+            <button class="nav-btn" data-section="pets">My Pets</button>
+            <button class="nav-btn" data-section="care">Care Guide</button>
+            <button class="nav-btn" data-section="shop">Pet Shop</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="pets" class="content-section active">
+            <h2 class="section-title">Your Virtual Pets</h2>
+            <div class="pet-grid">
+                <div class="pet-card" data-pet="fluffy">
+                    <div class="pet-avatar">🐱</div>
+                    <h3 class="pet-name">Fluffy</h3>
+                    <div class="pet-stats">
+                        <div class="stat">
+                            <span class="stat-label">Happiness:</span>
+                            <div class="stat-bar"><div class="stat-fill" style="width: 80%"></div></div>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Energy:</span>
+                            <div class="stat-bar"><div class="stat-fill" style="width: 60%"></div></div>
+                        </div>
+                    </div>
+                    <div class="pet-actions">
+                        <button class="action-btn feed-btn">Feed</button>
+                        <button class="action-btn play-btn">Play</button>
+                        <button class="action-btn sleep-btn">Sleep</button>
+                    </div>
+                </div>
+
+                <div class="pet-card" data-pet="buddy">
+                    <div class="pet-avatar">🐶</div>
+                    <h3 class="pet-name">Buddy</h3>
+                    <div class="pet-stats">
+                        <div class="stat">
+                            <span class="stat-label">Happiness:</span>
+                            <div class="stat-bar"><div class="stat-fill" style="width: 90%"></div></div>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Energy:</span>
+                            <div class="stat-bar"><div class="stat-fill" style="width: 40%"></div></div>
+                        </div>
+                    </div>
+                    <div class="pet-actions">
+                        <button class="action-btn feed-btn">Feed</button>
+                        <button class="action-btn play-btn">Play</button>
+                        <button class="action-btn sleep-btn">Sleep</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="add-pet-section">
+                <button class="add-pet-btn">+ Adopt New Pet</button>
+            </div>
+        </section>
+
+        <section id="care" class="content-section">
+            <h2 class="section-title">Pet Care Tips</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">🍎</div>
+                    <h3>Feeding Schedule</h3>
+                    <p class="tip-text">Feed your pets regularly to keep them happy and healthy!</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">🎾</div>
+                    <h3>Exercise Time</h3>
+                    <p class="tip-text">Daily play sessions boost your pet's energy and mood.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">😴</div>
+                    <h3>Rest Period</h3>
+                    <p class="tip-text">Ensure your pets get enough sleep for optimal health.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop" class="content-section">
+            <h2 class="section-title">Pet Shop</h2>
+            <div class="shop-grid">
+                <div class="shop-item">
+                    <div class="item-image">🦴</div>
+                    <h3 class="item-name">Premium Treats</h3>
+                    <p class="item-price">50 coins</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="shop-item">
+                    <div class="item-image">🎾</div>
+                    <h3 class="item-name">Super Ball</h3>
+                    <p class="item-price">30 coins</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="shop-item">
+                    <div class="item-image">🛏️</div>
+                    <h3 class="item-name">Cozy Bed</h3>
+                    <p class="item-price">100 coins</p>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2024 Digital Pet Care Center - Love your virtual companions!</p>
+            <div class="social-links">
+                <span class="social-icon">📱</span>
+                <span class="social-icon">💌</span>
+                <span class="social-icon">🌐</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
